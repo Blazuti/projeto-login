@@ -54,7 +54,7 @@ h1{
 
 
 
-.input-group{
+div.input-group{
     display: flex;
     flex-direction: inline;
     align-items: center;
@@ -63,7 +63,7 @@ h1{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.input-group > input{
+div.input-group > input{
     height: 35px;
     border-radius: 10px;
     width: 65vw;
@@ -72,7 +72,7 @@ h1{
     padding: 10px;
 
 }
-.input-group > label{
+div.input-group > label{
     border-radius: 5px 0px 0px 5px;
     display: flex;
     height: 35px;
