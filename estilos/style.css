@@ -32,6 +32,7 @@ picture > img{
 
 main{
     width: 80vw;
+    max-width: 500px;
     height: auto;
     padding: 0px 0px 5px 0px;
     border-radius: 15px;
@@ -66,6 +67,7 @@ h1{
     height: 35px;
     border-radius: 10px;
     width: 65vw;
+    max-width: 450px;
     height: 12vw;
     padding: 10px;
 
@@ -100,6 +102,7 @@ div.button{
     margin: 5px;
     padding: 5px 10px;
     width: 75vw;
+    max-width: 485px;
     height: 12vw;
     border-radius: 10px;
     border: 1px solid rgb(154, 154, 154);
