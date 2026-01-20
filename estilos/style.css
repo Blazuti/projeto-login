@@ -23,6 +23,7 @@ body{
 
 main{
     width: 90%;
+    box-shadow: 0px 0px 10px var(--cor03);
 }
 
 .container-login{
@@ -100,6 +101,10 @@ input{
     height: 5vh;
     margin-top: 10px;
     color: white;
-    background-color:var(--cor02);
+    background-color:rgba(8, 0, 255, 0.793);
     text-align: center;
+}
+
+.botao input:hover{
+    background-color: rgba(33, 47, 248, 0.671);
 }
