@@ -1,25 +1,29 @@
 @charset "utf-8";
 
-@media screen and (min-width: 400px) and (max-width: 790px)
+@media screen and (min-width: 400px)
 {
 body{
     background-image: linear-gradient(to bottom, #8726fd, #bb83ff);
 }
 .container-login, main{
+    border-radius: 10px 10px 10px 10px;
     max-width: 600px;
     display: flex;
     gap: 0px;
 }
 .imagem-login{
+    
+    border-radius: 10px 0px 0px 10px;
     height: auto;
-    flex: 30%;
+    flex: 40%;
     
 }
 
 .formulario{
+    
     flex-direction: column;
     height: auto;
-    flex: 70%;
+    flex: 60%;
     
 }
 .input-email img{
@@ -28,6 +32,7 @@ body{
 }
 
 .input-email{
+    
     height: 7vh;
 }
 
@@ -42,5 +47,11 @@ body{
 
 .botao input{
     height: 7vh;
+}
+}
+
+@media screen and (min-width: 790px) {
+.container-login, main{
+    flex-direction: row-reverse;
 }
 }
