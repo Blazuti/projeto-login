@@ -7,14 +7,14 @@ body{
     background-image: linear-gradient(to bottom, #8726fd, #bb83ff);
 }
 .container-login, main{
-    border-radius: 10px 10px 10px 10px;
+    
     max-width: 600px;
     display: flex;
     gap: 0px;
 }
 .imagem-login{
     
-    border-radius: 10px 0px 0px 10px;
+    
     height: auto;
     flex: 40%;
     

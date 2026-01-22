@@ -33,6 +33,7 @@ main{
     background-color: white;
     border-radius: 10px;
     box-shadow: 0px 0px 10px var(--cor03);
+    overflow: hidden;
 }
 
 .imagem-login{
@@ -40,7 +41,7 @@ main{
     background-image: url(../imagens/imagem-login.jpg);
     height: 30vh;
     background-size: cover;
-    border-radius: 10px 10px 0px 0px;
+    
 }
 
 .formulario{
