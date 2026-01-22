@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+@media screen and (min-width: 400px) and (max-width: 790px)
+{
+body{
+    background-image: linear-gradient(to bottom, #8726fd, #bb83ff);
+}
+.container-login, main{
+    max-width: 600px;
+    display: flex;
+    gap: 0px;
+}
+.imagem-login{
+    height: auto;
+    flex: 30%;
+    
+}
+
+.formulario{
+    flex-direction: column;
+    height: auto;
+    flex: 70%;
+    
+}
+.input-email img{
+    height: 7vh;
+    
+}
+
+.input-email{
+    height: 7vh;
+}
+
+.input-senha img{
+    height: 7vh;
+    
+}
+
+.input-senha{
+    height: 7vh;
+}
+
+.botao input{
+    height: 7vh;
+}
+}
