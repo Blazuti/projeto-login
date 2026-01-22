@@ -3,6 +3,7 @@
 @media screen and (min-width: 400px)
 {
 body{
+    
     background-image: linear-gradient(to bottom, #8726fd, #bb83ff);
 }
 .container-login, main{
